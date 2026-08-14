@@ -1,0 +1,60 @@
+{
+  "name": "pi-web-search-research-llm-gcp",
+  "version": "0.2.0",
+  "description": "Vertex AI Gemini grounded web search, research, and direct URL extraction tools for Pi, using Google Cloud Agent Platform credentials.",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-coding-agent",
+    "pi-extension",
+    "gcp",
+    "google-cloud",
+    "agent-platform",
+    "vertex-ai",
+    "gemini",
+    "web-search",
+    "search",
+    "research",
+    "web-fetch",
+    "url-context",
+    "documentation",
+    "grounding",
+    "google-search"
+  ],
+  "author": {
+    "name": "Nils Klüwer",
+    "url": "https://github.com/nilskluewer"
+  },
+  "license": "MIT",
+  "files": [
+    "extensions",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions/vertex-gemini-search.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*",
+    "typebox": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nilskluewer/pi-web-search-research-llm-gcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nilskluewer/pi-web-search-research-llm-gcp/issues"
+  },
+  "homepage": "https://github.com/nilskluewer/pi-web-search-research-llm-gcp#readme",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "pack:dry": "npm pack --dry-run"
+  }
+}
