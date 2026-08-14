@@ -29,6 +29,14 @@ Extract all information from this webpage into Markdown.
 
 The result is model-generated Markdown, not a byte-for-byte copy of the original webpage.
 
+## Preview
+
+![Available web search, fetch, and research tools](https://raw.githubusercontent.com/nilskluewer/pi-web-search-research-llm-gcp/main/assets/screenshots/web-search-tools.png)
+
+![Web search result with sources and cost summary](https://raw.githubusercontent.com/nilskluewer/pi-web-search-research-llm-gcp/main/assets/screenshots/web-search-result.png)
+
+![Web research result with structured analysis and sources](https://raw.githubusercontent.com/nilskluewer/pi-web-search-research-llm-gcp/main/assets/screenshots/web-research-result.png)
+
 ## Vertex AI authentication
 
 Authentication order:

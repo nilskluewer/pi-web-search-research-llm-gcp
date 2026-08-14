@@ -29,13 +29,15 @@
   "license": "MIT",
   "files": [
     "extensions",
+    "assets",
     "README.md",
     "LICENSE"
   ],
   "pi": {
     "extensions": [
       "./extensions/vertex-gemini-search.ts"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/nilskluewer/pi-web-search-research-llm-gcp/main/assets/screenshots/web-search-tools.png"
   },
   "peerDependencies": {
     "@earendil-works/pi-coding-agent": "*",
